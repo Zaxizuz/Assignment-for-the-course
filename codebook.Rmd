@@ -11,13 +11,12 @@ Position  | Column Name  |  Description
 ----------|--------------|-----------------------------
 1         |   Subject    |  There are thirty volunteers. 
 2         |   Activity   |  There are six activities in this test.
-----------|--------------|  1. WALKING
-----------|--------------|  2. WALKING_UPSTAIRS
-----------|--------------|  3. WALKING_DOWNSTAIRS
-----------|--------------|  4. SITTING
-----------|--------------|  5. STANDING
-----------|--------------|  6. LAYING
-          |              |                           
+                            1. WALKING
+          |              |  2. WALKING_UPSTAIRS
+          |              |  3. WALKING_DOWNSTAIRS
+          |              |  4. SITTING
+          |              |  5. STANDING
+          |              |  6. LAYING                           
 3 ~ 81    |   Features   |  Measurements
 3         |                 tBodyAcc-mean()-X
 4         |                 tBodyAcc-mean()-Y              
@@ -99,7 +98,4 @@ Position  | Column Name  |  Description
 80        |                 fBodyBodyGyroJerkMag-std()     
 81        |                 fBodyBodyGyroJerkMag-meanFreq()
 
-```{run_analysis.R, echo=FALSE}
-View(dataset)
-```
 
