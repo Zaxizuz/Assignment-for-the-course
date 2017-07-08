@@ -111,9 +111,12 @@ With the funciton, dcast, we can get the average of each variable for each activ
 
 
 
-
-
-
+```
+address <- "https://github.com/Zaxizuz/Assignment-for-the-course/blob/master/output.csv"
+address <- sub("^https", "http", address)
+data <- read.csv(url(address), header = TRUE) #if they used some other way of saving the file than a default write.table, this step will be different
+View(data)
+```
 
 License:
 ========
