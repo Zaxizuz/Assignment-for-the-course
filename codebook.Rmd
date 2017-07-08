@@ -8,15 +8,9 @@ output: html_document
 ## CodeBook
 
 Position  | Column Name  |  Description
-----------|--------------|-----------------------------
-1         |   Subject    |  There are thirty volunteers. 
-2         |   Activity   |  There are six activities in this test.
-                            1. WALKING
-          |              |  2. WALKING_UPSTAIRS
-          |              |  3. WALKING_DOWNSTAIRS
-          |              |  4. SITTING
-          |              |  5. STANDING
-          |              |  6. LAYING                           
+--------- | ------------ | ----------------------------
+1         |    Subject   |   There are thirty volunteers. 
+2         |    Activity  |   There are six activities in this test.1. WALKING 2. WALKING_UPSTAIRS 3. WALKING_DOWNSTAIRS                 |              |  4. SITTING 5. STANDING 6. LAYING         
 3 ~ 81    |   Features   |  Measurements
 3         |                 tBodyAcc-mean()-X
 4         |                 tBodyAcc-mean()-Y              
