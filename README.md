@@ -13,12 +13,12 @@ In this exercise, the code conbinds all the data and shows the result in a tidy 
 
 The dataset includes the following files:
 ----------------------------------------
-1.ReadMe.md       
+1.README.md       
 2.Codebook.md     
 3.run-analysis.R  
-4.outpot.txt      
+4.output.txt      
 
-'ReadMe.md': explaination of the clear and understandable dataset.  
+'README.md': explaination of the clear and understandable dataset.  
 
 'Codebook.md': A file including descriptions of every column.
 
