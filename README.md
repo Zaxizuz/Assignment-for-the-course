@@ -94,7 +94,7 @@ This step reads the file including all the names of activities. And it names all
 colnames(dataset) <- c("subject","activity",as.character(feature[rows-2,2]))
 ```
 
-The code extracts those names from the data, feature, which is the data loaded from features.txt
+The code extracts those names from the data, feature, which is the data loaded from features.txt.
 After that, we replace those names of measurements with names from the data, feature.
 
 ## Step 5 
