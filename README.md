@@ -17,7 +17,7 @@ The dataset includes the following files:
 2.Codebook.md     
 3.run-analysis.R  
 4.results.txt      
-5.output.csv
+
 
 'README.md': explaination of the clear and understandable dataset.  
 
