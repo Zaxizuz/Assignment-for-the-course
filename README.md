@@ -2,7 +2,7 @@
 title: "Human Activity Recognition Using Smartphones Dataset"
 author: "Sen Lin"
 date: "7/8/2017"
-output: html_document
+
 ---
 
 
